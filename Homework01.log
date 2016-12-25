@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.22)  25 DEC 2016 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.22)  25 DEC 2016 15:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1786,7 +1786,7 @@ l. 33 Writing Homework01.idv[1] (Homework010x.png)
 Here is how much of TeX's memory you used:
  39182 strings out of 493030
  858596 string characters out of 6136260
- 1138066 words of memory out of 5000000
+ 1138068 words of memory out of 5000000
  41986 multiletter control sequences out of 15000+600000
  5068 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
