@@ -1,0 +1,37 @@
+\documentclass[handout]{ximera}
+\usepackage{PackageLoader}
+%\Verbosetrue
+%\maketagssuperstrict
+\maketagsstrict
+%\maketagsrelax
+\newcounter{testcounter}
+\setcounter{testcounter}{0}
+\begin{document}
+
+\makeatletter
+
+%\renewcommand{\latexProblemContent}[1]{
+%	\stepcounter{testcounter}
+%	\ifthenelse{\arabic{testcounter}<6}
+%	{#1}
+%	{}
+%}
+
+\begin{shuffle}
+\QuestionSelect{}{}{Topic@Limit}{}{5}
+\end{shuffle}
+
+\QuestionSelect{}{}{Topic@Limit}{Sub@Disc-Jump}{5}
+
+\QuestionSelect{}{}{Topic@Limit}{Sub@Continuity}{5}
+
+\QuestionSelect{}{}{Topic@Limit}{Sub@Disc-Remove}{5}
+
+\QuestionSelect{}{}{Topic@Limit}{Sub@Asymptote}{5}
+
+Test question here
+\begin{problem}
+	Why won't this work?
+\end{problem}
+\input{./Limits/2311-Compute-Limit-0001}
+\end{document}
