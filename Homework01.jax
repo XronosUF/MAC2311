@@ -4,4 +4,3 @@
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
 \newcommand {\Sectionformat }[2]{#1}
-\newcommand {\latexProblemContent }[1]{ \stepcounter {testcounter} \ifthenelse {\arabic {testcounter}<6} {#1} {} }

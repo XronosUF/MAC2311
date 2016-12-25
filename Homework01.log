@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.22)  25 DEC 2016 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.22)  25 DEC 2016 15:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1780,105 +1780,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 l. 33 Writing Homework01.idv[1] (Homework010x.png)
-(./Limits/2311-Compute-Limit-0001.tex
-./Limits/2311-Compute-Limit-0001.tex:11: Illegal parameter number in definition
- of \spaceatend.
-<to be read again> 
-                   1
-l.11 \end{problem}}
-                   %}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+(./Limits/2311-Compute-Limit-0001.tex) [1
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-(/home/xronosadmin/texmf/tex/latex/Question_Bank/Question Banks/Limits/2311_Com
-pute_Limit_0001.HELP.tex)
-l. 11 Writing Homework01.idv[2] (Homework011x.png)
-
-./Limits/2311-Compute-Limit-0001.tex:24: Illegal parameter number in definition
- of \spaceatend.
-<to be read again> 
-                   1
-l.24 \end{problem}}
-                   %}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-
-(/home/xronosadmin/texmf/tex/latex/Question_Bank/Question Banks/Limits/2311_Com
-pute_Limit_0001.HELP.tex)
-l. 24 Writing Homework01.idv[3] (Homework012x.png)
-
-./Limits/2311-Compute-Limit-0001.tex:37: Illegal parameter number in definition
- of \spaceatend.
-<to be read again> 
-                   1
-l.37 \end{problem}}
-                   %}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-
-(/home/xronosadmin/texmf/tex/latex/Question_Bank/Question Banks/Limits/2311_Com
-pute_Limit_0001.HELP.tex)
-l. 37 Writing Homework01.idv[4] (Homework013x.png)
- [1
-
-]
-./Limits/2311-Compute-Limit-0001.tex:50: Illegal parameter number in definition
- of \spaceatend.
-<to be read again> 
-                   1
-l.50 \end{problem}}
-                   %}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-
-(/home/xronosadmin/texmf/tex/latex/Question_Bank/Question Banks/Limits/2311_Com
-pute_Limit_0001.HELP.tex)
-l. 50 Writing Homework01.idv[5] (Homework014x.png)
-
-./Limits/2311-Compute-Limit-0001.tex:63: Illegal parameter number in definition
- of \spaceatend.
-<to be read again> 
-                   1
-l.63 \end{problem}}
-                   %}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-
-(/home/xronosadmin/texmf/tex/latex/Question_Bank/Question Banks/Limits/2311_Com
-pute_Limit_0001.HELP.tex)
-l. 63 Writing Homework01.idv[6] (Homework015x.png)
-) [2] [3] (./Homework01.aux) ) 
+] [2] (./Homework01.aux) ) 
 Here is how much of TeX's memory you used:
- 39282 strings out of 493030
- 861320 string characters out of 6136260
- 1141096 words of memory out of 5000000
- 42051 multiletter control sequences out of 15000+600000
- 6767 words of font info for 27 fonts, out of 8000000 for 9000
+ 39182 strings out of 493030
+ 858596 string characters out of 6136260
+ 1138066 words of memory out of 5000000
+ 41986 multiletter control sequences out of 15000+600000
+ 5068 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,5n,79p,10911b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Homework01.dvi (3 pages, 12796 bytes).
+Output written on Homework01.dvi (2 pages, 5144 bytes).
