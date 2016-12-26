@@ -9,11 +9,8 @@ de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
 documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
  tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
 \HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode ximera,charset=utf-8,-css.a
-.b.c.\input  course.tex
-(./course.tex (/home/xronosadmin/texmf/tex/latex/ximeraLatex/xourse.cls
-Document Class: xourse 2015/07/15 Version 1.26 by Bart Snapp, Oscar Levin, Hans
- Parshall
-(/home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.cls
+.b.c.\input  Homework01.tex
+(./Homework01.tex (/home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.cls
 Document Class: ximera 2016/08/17 Version 1.25 by Bart Snapp
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1000,17 +997,12 @@ Excluding comment 'comment')
 \c@summary=\count275
 \c@template=\count276
 \c@warning=\count277
+ Excluding comment 'matrixAnswer'
 \c@track@Problem=\count278
 \c@shuffle@Count=\count279
 \c@problem=\count280
 \c@problemType=\count281
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks50
-\verbatim@line=\toks51
-\verbatim@in@stream=\read3
-))
 (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
 Package: tex4ht 
@@ -1020,12 +1012,115 @@ Package: tex4ht
 --------------------------------------
 --- Note --- for ^ at preamble, use the command line option `early^'
 --------------------------------------
-\tmp:toks=\toks52
+\tmp:toks=\toks50
 )
-(/home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.cfg
 (/usr/share/texmf/tex/generic/tex4ht/usepackage.4ht
 version 2009-05-21-09:32
 )
+(/home/xronosadmin/texmf/tex/latex/ximeraLatex/UF sty files/PackageLoader.sty
+Package: PackageLoader 
+\c@Total@Question=\count282
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen278
+\Gm@wd@mp=\dimen279
+\Gm@odd@mp=\dimen280
+\Gm@even@mp=\dimen281
+\Gm@layoutwidth=\dimen282
+\Gm@layoutheight=\dimen283
+\Gm@layouthoffset=\dimen284
+\Gm@layoutvoffset=\dimen285
+\Gm@dimlist=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+(/home/xronosadmin/texmf/tex/latex/ximeraLatex/UF sty files/Filter.sty
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \set@StrictActiveTags with sig. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \set@RelaxActiveTags with sig. 'm' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addTo@StrictActiveTags with sig. 'm' on line 75.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addTo@RelaxActiveTags with sig. 'm' on line 86.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tagged with sig. 'mm' on line 121.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \maketagsstrict with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \maketagssuperstrict with sig. '' on line 134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \maketagsrelax with sig. '' on line 140.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \relaxtest with sig. 'mm' on line 153.
+.................................................
+)
+(/home/xronosadmin/texmf/tex/latex/ximeraLatex/UF sty files/TagMasterList.sty))
+
+(/home/xronosadmin/texmf/tex/latex/ximeraLatex/UF sty files/ProblemSelection.st
+y
+Package: ProblemSelection 
+\c@Problem@MasterCounter=\count286
+\c@Iteration@1=\count287
+\c@Real@PullNumber=\count288
+\c@Iteration@List=\count289
+\c@Rnd@Quant=\count290
+\c@Temp@Hold=\count291
+\c@Temp@RandMe=\count292
+\c@Rnd@EndQuant=\count293
+\c@TEMP=\count294
+\c@Colision@Chance=\count295
+\c@Last@Question=\count296
+\c@LogicChecks=\count297
+\c@Pull@Queue=\count298
+)
+\c@testcounter=\count299
+ (/home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.cfg
 (/usr/share/texmf/tex/generic/tex4ht/tex4ht.4ht
 version 2009-01-07-07:11
 --------------------------------------
@@ -1038,17 +1133,18 @@ version 2009-01-07-07:11
 ) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
 
---- needs --- tex4ht course ---
-\tmp:cnt=\count282
-\openout15 = `course.tmp'.
+--- needs --- tex4ht Homework01 ---
+\tmp:cnt=\count300
+\openout15 = `Homework01.tmp'.
 
-(./course.tmp)
+(./Homework01.tmp)
 \tmp:dim=\skip134
- (./course.xref)
+ (./Homework01.xref)
 \:refout=\write6
-\openout6 = `course.xref'.
+\openout6 = `Homework01.xref'.
 
- (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
 version 2009-05-18-23:01
 --------------------------------------
 --- Note --- to remove the <?xml version=...?> processing instruction use the c
@@ -1119,8 +1215,8 @@ on `imgdir:.../'
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 )
-\:tokwrite=\toks53
-\:tokpage=\toks54
+\:tokwrite=\toks54
+\:tokpage=\toks55
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
@@ -1128,10 +1224,10 @@ version 2009-05-18-23:01
 --- Note --- for linear crosslinks of pages, use the command line option `next'
 
 --------------------------------------
-\openout15 = `course.4ct'.
+\openout15 = `Homework01.4ct'.
 
 \:tocout=\write7
-\openout7 = `course.4tc'.
+\openout7 = `Homework01.4tc'.
 
 
 (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
@@ -1247,27 +1343,17 @@ version 2009-05-18-23:01
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/home/xronosadmin/texmf/tex/latex/ximeraLatex/xourse.4ht
-version 2015-08-22-10:35
-\c@ximera@part=\count283
-
-(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
-)
-(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
 (/home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.4ht
 version 2014-01-26-09:44
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks55
-\MT@count=\count284
+\MT@toks=\toks56
+\MT@count=\count301
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen278
+\MT@outer@kern=\dimen286
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count285
+\MT@listname@count=\count302
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -1281,7 +1367,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-\c@identification=\count286
+\c@identification=\count303
 
 
 /home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.4ht:62: LaTeX Error: Comma
@@ -1345,7 +1431,7 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-\c@choiceId=\count287
+\c@choiceId=\count304
 
 /home/xronosadmin/texmf/tex/latex/ximeraLatex/ximera.4ht:361: LaTeX Error: \hre
 f undefined in `ximera.cfg'.
@@ -1593,15 +1679,15 @@ version 2009-05-18-23:01
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-runsystem(sed -i "/@/d" course.jax)...executed.
+runsystem(sed -i "/@/d" Homework01.jax)...executed.
 
-runsystem(sed -i "s/##\\([0-9]\\)/#\\1/g" course.jax)...executed.
+runsystem(sed -i "s/##\\([0-9]\\)/#\\1/g" Homework01.jax)...executed.
 
- (./course.oc)
-\eqtoks=\toks56
+ (./Homework01.oc)
+\eqtoks=\toks57
 
-(./course.aux)
-\openout1 = `course.aux'.
+(./Homework01.aux)
+\openout1 = `Homework01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
@@ -1622,8 +1708,42 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into
 your preamble.
  on input line 111.
 
-\c@lstlisting=\count288
+\c@lstlisting=\count305
 \AtBeginShipoutBox=\box66
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-39.0pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Info: Redefining \microtypecontext on input line 111.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1645,43 +1765,349 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+) (./Limit-Input.tex)
+\c@Q@PulledI=\count306
+\c@Q@PulledII=\count307
+\c@Q@PulledIII=\count308
+\c@Q@PulledIV=\count309
+\c@Q@PulledV=\count310
+ (./Limit-Input.tex (./Limits/2311-Compute-Limit-0001.tex
+./Limits/2311-Compute-Limit-0001.tex:955: Illegal parameter number in definitio
+n of \spaceatend.
+<to be read again> 
+                   1
+l.955 \end{problem}}
+                    %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+msa on input line 955.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 955.
 
-./course.tex:12: LaTeX Error: Environment abstract undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(./Limits/2311-Compute-Limit-0001.HELP.tex)
+l. 955 Writing Homework01.idv[1] (Homework010x.png)
+)
+(./Limits/2311-Compute-Limit-0002.tex) (./Limits/2311-Compute-Limit-0003.tex)
+(./Limits/2311-Compute-Limit-0004.tex) (./Limits/2311-Compute-Limit-0005.tex)
+(./Limits/2311-Compute-Limit-0006.tex) (./Limits/2311-Compute-Limit-0007.tex)
+(./Limits/2311-Compute-Limit-0008.tex) (./Limits/2311-Compute-Limit-0009.tex
+./Limits/2311-Compute-Limit-0009.tex:1388: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.1388 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \begin{abstract}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(./Limits/2311-Compute-Limit-0009.HELP.tex)
+l. 1388 Writing Homework01.idv[2] (Homework011x.png)
 
+./Limits/2311-Compute-Limit-0009.tex:1817: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.1817 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-./course.tex:14: LaTeX Error: \begin{document} ended by \end{abstract}.
+(./Limits/2311-Compute-Limit-0009.HELP.tex)
+l. 1817 Writing Homework01.idv[3] (Homework012x.png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{abstract}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+./Limits/2311-Compute-Limit-0009.tex:3400: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.3400 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-(./course.4ct) [1
+(./Limits/2311-Compute-Limit-0009.HELP.tex)
+l. 3400 Writing Homework01.idv[4] (Homework013x.png)
+ [1
 
-] [2] (./course.aux) ) 
+])
+(./Limits/2311-Compute-Limit-0010.tex) (./Limits/2311-Compute-Limit-0011.tex)
+(./Limits/2311-Compute-Limit-0012.tex) (./Limits/2311-Compute-Limit-0013.tex)
+(./Limits/2311-Compute-Limit-0014.tex) (./Limits/2311-Compute-Limit-0015.tex)
+(./Limits/2311-Concept-Limit-0001.tex) (./Limits/2311-Concept-Limit-0002.tex
+./Limits/2311-Concept-Limit-0002.tex:2636: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.2636 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0002.HELP.tex)
+l. 2636 Writing Homework01.idv[5] (Homework014x.png)
+)
+(./Limits/2311-Concept-Limit-0003.tex) (./Limits/2311-Concept-Limit-0004.tex)
+(./Limits/2311-Concept-Limit-0005.tex) (./Limits/2311-Concept-Limit-0006.tex)
+(./Limits/2311-Concept-Limit-0007.tex) (./Limits/2311-Concept-Limit-0008.tex))
+(./Limit-Input.tex) (./Limit-Input.tex (./Limits/2311-Concept-Limit-0004.tex
+./Limits/2311-Concept-Limit-0004.tex:10730: Illegal parameter number in definit
+ion of \spaceatend.
+<to be read again> 
+                   1
+l.10730 \end{problem}}
+                      %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0004.HELP.tex)
+l. 10730 Writing Homework01.idv[6] (Homework015x.png)
+)
+(./Limits/2311-Concept-Limit-0005.tex
+./Limits/2311-Concept-Limit-0005.tex:982: Illegal parameter number in definitio
+n of \spaceatend.
+<to be read again> 
+                   1
+l.982 \end{problem}}
+                    %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 982 Writing Homework01.idv[7] (Homework016x.png)
+ [2]
+./Limits/2311-Concept-Limit-0005.tex:1366: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.1366 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 1366 Writing Homework01.idv[8] (Homework017x.png)
+
+./Limits/2311-Concept-Limit-0005.tex:4006: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.4006 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 4006 Writing Homework01.idv[9] (Homework018x.png)
+
+./Limits/2311-Concept-Limit-0005.tex:6790: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.6790 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 6790 Writing Homework01.idv[10] (Homework019x.png)
+)) (./Limit-Input.tex)
+(./Limit-Input.tex (./Limits/2311-Compute-Limit-0008.tex [3]
+./Limits/2311-Compute-Limit-0008.tex:3077: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.3077 \end{problem}}
+                     {
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0008.HELP.tex)
+l. 3077 Writing Homework01.idv[11] (Homework0110x.png)
+ [4])
+(./Limits/2311-Compute-Limit-0009.tex
+./Limits/2311-Compute-Limit-0009.tex:465: Illegal parameter number in definitio
+n of \spaceatend.
+<to be read again> 
+                   1
+l.465 \end{problem}}
+                    %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0009.HELP.tex)
+l. 465 Writing Homework01.idv[12] (Homework0111x.png)
+)
+(./Limits/2311-Concept-Limit-0004.tex) (./Limits/2311-Concept-Limit-0005.tex
+./Limits/2311-Concept-Limit-0005.tex:4918: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.4918 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 4918 Writing Homework01.idv[13] (Homework0112x.png)
+
+./Limits/2311-Concept-Limit-0005.tex:8854: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.8854 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Concept-Limit-0005.HELP.tex)
+l. 8854 Writing Homework01.idv[14] (Homework0113x.png)
+)
+(./Limits/2311-Concept-Limit-0006.tex
+./Limits/2311-Concept-Limit-0006.tex:199: Illegal parameter number in definitio
+n of \spaceatend.
+<to be read again> 
+                   1
+l.199 \end{problem}}
+                    %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+[5] (./Limits/2311-Concept-Limit-0006.HELP.tex)
+l. 199 Writing Homework01.idv[15] (Homework0114x.png)
+)
+(./Limits/2311-Concept-Limit-0007.tex)) (./Limit-Input.tex) (./Limit-Input.tex)
+(./Limit-Input.tex) (./Limit-Input.tex (./Limits/2311-Compute-Limit-0001.tex)
+(./Limits/2311-Compute-Limit-0004.tex
+./Limits/2311-Compute-Limit-0004.tex:823: Illegal parameter number in definitio
+n of \spaceatend.
+<to be read again> 
+                   1
+l.823 \end{problem}}
+                    %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0004.HELP.tex)
+l. 823 Writing Homework01.idv[16] (Homework0115x.png)
+
+./Limits/2311-Compute-Limit-0004.tex:2218: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.2218 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0004.HELP.tex)
+l. 2218 Writing Homework01.idv[17] (Homework0116x.png)
+)
+(./Limits/2311-Compute-Limit-0007.tex
+./Limits/2311-Compute-Limit-0007.tex:4182: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.4182 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0007.HELP.tex)
+l. 4182 Writing Homework01.idv[18] (Homework0117x.png)
+)
+(./Limits/2311-Compute-Limit-0011.tex [6]
+./Limits/2311-Compute-Limit-0011.tex:5147: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.5147 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0011.HELP.tex)
+l. 5147 Writing Homework01.idv[19] (Homework0118x.png)
+
+./Limits/2311-Compute-Limit-0011.tex:5978: Illegal parameter number in definiti
+on of \spaceatend.
+<to be read again> 
+                   1
+l.5978 \end{problem}}
+                     %}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./Limits/2311-Compute-Limit-0011.HELP.tex)
+l. 5978 Writing Homework01.idv[20] (Homework0119x.png)
+)
+(./Limits/2311-Compute-Limit-0012.tex))
+./Homework01.tex:33: Illegal parameter number in definition of \spaceatend.
+<to be read again> 
+                   1
+l.33 \begin{problem}
+                    
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+l. 35 Writing Homework01.idv[21] (Homework0120x.png)
+[7] [8] (./Homework01.aux) )
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \if on line 199 was incomplete)
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \if on line 199 was incomplete)
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \if on line 199 was incomplete)
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \if on line 199 was incomplete)
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \if on line 199 was incomplete)
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \iftrue on line 288 was incomplete)
+(\end occurred when \iftrue on line 3077 was incomplete)
+(\end occurred when \iftrue on line 123 was incomplete) 
 Here is how much of TeX's memory you used:
- 38539 strings out of 493030
- 848418 string characters out of 6136260
- 1121244 words of memory out of 5000000
- 41368 multiletter control sequences out of 15000+600000
- 3808 words of font info for 15 fonts, out of 8000000 for 9000
+ 39553 strings out of 493030
+ 868804 string characters out of 6136260
+ 1142194 words of memory out of 5000000
+ 42171 multiletter control sequences out of 15000+600000
+ 6767 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,5n,81p,10882b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,6n,79p,10911b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on course.dvi (2 pages, 4572 bytes).
+Output written on Homework01.dvi (8 pages, 45416 bytes).
