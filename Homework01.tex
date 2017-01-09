@@ -1,10 +1,12 @@
 \documentclass[handout]{ximera}
-\usepackage{PackageLoader}
+%\usepackage{PackageLoader}
 %\Verbosetrue
 %\maketagssuperstrict
 \maketagsstrict
 %\maketagsrelax
 \makeatletter
+
+
 
 \title{Homework 1}
 \author{people}
@@ -18,8 +20,80 @@ Location here
 %\setcounter{testcounter}{0}
 \begin{document}
 \maketitle
-%\renewcommand{\QuestionSelect}{It called our command in theory}
+\renewcommand{\QuestionSelect}[5]{%User command to select a pool of questions by going through the master question list and pulling all the questions that match your filter and form a pool of (#5 number of) problems.
+
+%	SYNTAX
+%	\QuestionSelect{Filters}{Number of problems} 
+
+%Note that the input below will also trigger the \latexProblemContent commands on each problem. This first input will harvest the total number of questions that remain after being filtered.
+\set@RelaxActiveTags{}
+\set@StrictActiveTags{}
+
+\ifthenelse{\isempty{#1}}
+	{
+	\expandafter\addTo@RelaxActiveTags\TagList@MasterCatOne
+	}
+	{
+	\addTo@RelaxActiveTags{#1}
+	}
+
+\ifthenelse{\isempty{#2}}
+	{
+	\expandafter\addTo@RelaxActiveTags\TagList@MasterCatTwo
+	}
+	{
+	\addTo@RelaxActiveTags{#2}
+	}
+
+\ifthenelse{\isempty{#3}}
+	{
+	\expandafter\addTo@RelaxActiveTags\TagList@MasterCatThree
+	}
+	{
+	\addTo@RelaxActiveTags{#3}
+	}
+
+\ifthenelse{\isempty{#4}}
+	{
+	\expandafter\addTo@RelaxActiveTags\TagList@MasterCatFour
+	}
+	{
+	\addTo@StrictActiveTags{#4}
+	}
+
+%%Input files to count raw potential questions.
+	\Master@Input@Test
+
+%Record the number of problems in the useful counter. Fix this at some point.
+\setcounter{Problem@MasterCounter}{\arabic{Total@Question}}
+
+
+\ifVerbose{ The Problem@MasterCounter Value is: \arabic{Problem@MasterCounter}}\fi
+%Notice the below Question@Quantity command must come after the first input command so that the real pull quantity is listed as 0, thus not triggering the if command in the question commands.
+
+\Question@Quantity{#5}	%Determine how many problems we're getting.
+
+
+\Q@Selection{50}	% Determines which algorithm to use to select problems randomly. Colision threshold is 100/#1. Currently defaulted to a 2% colision threshold for efficient selection.
+
+%The second input will then assign commands to just the problem numbers we want.
+\questionListtrue
+
+%	Now call the actual question content.
+\Master@Input@Test
+
+%Reset counters/logic in case of another \QuestionSelect command.
+
+\setcounter{Total@Question}{0}
+\ifVerbose{The Value of Total@Question Counter is \arabic{Total@Question}}\fi
+\setcounter{Real@PullNumber}{0}
+\questionListfalse
+}
+
+
 Shuffle takes in thousands and uses 5.
+
+
 
 \begin{shuffle}[5]
 \QuestionSelect{}{}{Topic@Limit}{}{1}
